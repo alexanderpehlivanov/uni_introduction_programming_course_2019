@@ -19,12 +19,12 @@ The course is going through the basics of programming with C++
 * * * ```<var_1> <condition> <var_2> ? <value_if_true> : <value_if_false>```
 
 ```c++
-if ( (<condition_1> == true) || (<condition_2> != false)) std::cout << "I am in\n";
-if ( (<condition_1> == true) && (<condition_2> == false)) std::cout << "I am in\n";
-if ( (<condition_1> == true) && (<condition_2> == false)) std::cout << "I am in\n";
+    if ( (<condition_1> == true) || (<condition_2> != false)) std::cout << "I am in\n";
+    if ( (<condition_1> == true) && (<condition_2> == false)) std::cout << "I am in\n";
+    if ( (<condition_1> == true) && (<condition_2> == false)) std::cout << "I am in\n";
 
-int a, b = 6, c = 8;
-a = b > c ? 10 : 15; // a = 15
+    int a, b = 6, c = 8;
+    a = b > c ? 10 : 15; // a = 15
 ```
 
 * **Condition Operators** - *if*, *else*, *switch* are reserved words in C++ which help us to create events based on the logical operation
@@ -155,6 +155,56 @@ a = b > c ? 10 : 15; // a = 15
     }
 ```
 
+* **Arrays** - is a *collection of data* that holds fixed number of values *of same type*
+
+```c++
+    int mark[5] = {19, 10, 8, 17, 9}
+    // change 4th element to 9
+    mark[3] = 9;
+    // take input from the user and insert in third element
+    cin >> mark[2];
+    // take input from the user and insert in (i+1)th element
+    cin >> mark[i];
+    // print first element of the array
+    cout << mark[0];
+    // print ith element of the array
+    cout >> mark[i-1];
+```
+
+![basic_array_representation](https://cdn.programiz.com/sites/tutorial2program/files/c-array-initialization.jpg)
+
+```c++
+    #include <iostream>
+    using namespace std;
+    int main() 
+    {
+        int numbers[5], sum = 0;
+        cout << "Enter 5 numbers: ";
+
+        //  Storing 5 number entered by user in an array
+        //  Finding the sum of numbers entered
+        for (int i = 0; i < 5; ++i) 
+        {
+            cin >> numbers[i];
+            sum += numbers[i];
+        }
+
+        cout << "Sum = " << sum << endl;  
+
+        return 0;
+    }
+    
+    // Output
+    // Enter 5 numbers: 3
+    // 4
+    // 5
+    // 4
+    // 2
+    // Sum = 18
+```
+
+* **Types** - basic *variables* type to handle different data sets
+* **Types** - basic *variables* type to handle different data sets
 * **Types** - basic *variables* type to handle different data sets
 * Hat tip to anyone whose code was used
 * Inspiration
