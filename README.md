@@ -24,12 +24,24 @@ The course is going through the basics of programming with C++
 * * *Logical Connections* 
 * * * ```&& #returns 'and'```
 * * * ```|| #returns 'or'```
-* * * ```<var_1> == <var_2> #returns true if var_1 *is equal* to var_2 #returns false if var_1 *is not equal* to var_2```
-* * * ```<var_1> != <var_2> #returns true if var_1 *is not equal* to var_2 #returns false if var_1 *is equal* to var_2```
-* * * ```<var_1> <= <var_2> #returns true if var_1 *is smaller or equal* to var_2 #returns false if var_1 *is bigger* then var_2```
-* * * ```<var_1> >= <var_2> #returns true if var_1 *is bigger or equal* to var_2 #returns false if var_1 *is smaller* then var_2```
-* * * ```<var_1> > <var_2> #returns true if var_1 *bigger* then var_2 #returns false if var_1 *is smaller or equal* to var_2```
-* * * ```<var_1> < <var_2> #returns true if var_1 *smaller* then var_2 #returns false if var_1 *is bigger or equal* to var_2```
+* * * ```<var_1> == <var_2>```
+* * * * #returns true if var_1 *is equal* to var_2
+* * * * #returns false if var_1 *is not equal* to var_2
+* * * ```<var_1> != <var_2>```
+* * * * #returns true if var_1 *is not equal* to var_2 
+* * * * #returns false if var_1 *is equal* to var_2
+* * * ```<var_1> <= <var_2>```
+* * * * #returns true if var_1 *is smaller or equal* to var_2
+* * * * #returns false if var_1 *is bigger* then var_2
+* * * ```<var_1> >= <var_2>```
+* * * * #returns true if var_1 *is bigger or equal* to var_2
+* * * * #returns false if var_1 *is smaller* then var_2
+* * * ```<var_1> > <var_2>```
+* * * * #returns true if var_1 *bigger* then var_2
+* * * * #returns false if var_1 *is smaller or equal* to var_2
+* * * ```<var_1> < <var_2>```
+* * * * #returns true if var_1 *smaller* then var_2
+* * * * #returns false if var_1 *is bigger or equal* to var_2
 * * * ```<var_1> <condition> <var_2> ? <value_if_true> : <value_if_false>```
 
 ```c++
