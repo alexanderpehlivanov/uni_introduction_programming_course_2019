@@ -435,7 +435,7 @@ The course is going through the basics of programming with C++
 ## Project Structure
     .
     ├── ...
-    ├── [Tasks](https://github.com/alexanderpehlivanov/uni_introduction_programming_course_2019/tree/master/Tasks/)                   # Tasks Directory
+    ├── Tasks                   # Tasks Directory
     │   └── ...                 # etc.
     |
     ├── docs                    # Documentation files (alternatively `doc`)
