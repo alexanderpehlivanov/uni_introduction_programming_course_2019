@@ -12,10 +12,10 @@ The course is going through the basics of programming with C++
 * * * ```|| #returns 'or'```
 * * * ```<var_1> == <var_2> #returns true if var_1 *is equal* to var_2 #returns false if var_1 *is not equal* to var_2```
 * * * ```<var_1> != <var_2> #returns true if var_1 *is not equal* to var_2 #returns false if var_1 *is equal* to var_2```
-* * * ```<var_1> <= <var_2> #returns true if var_1 *is smaller or equal* to var_2 #returns false if var_1 *is bigger* to var_2```
-* * * ```<var_1> >= <var_2> #returns true if var_1 *is bigger or equal* to var_2 #returns false if var_1 *is smaller* to var_2```
-* * * ```<var_1> > <var_2> #returns true if var_1 *is not equal* to var_2 #returns false if var_1 *is equal* to var_2```
-* * * ```<var_1> < <var_2> #returns true if var_1 *is not equal* to var_2 #returns false if var_1 *is equal* to var_2```
+* * * ```<var_1> <= <var_2> #returns true if var_1 *is smaller or equal* to var_2 #returns false if var_1 *is bigger* then var_2```
+* * * ```<var_1> >= <var_2> #returns true if var_1 *is bigger or equal* to var_2 #returns false if var_1 *is smaller* then var_2```
+* * * ```<var_1> > <var_2> #returns true if var_1 *bigger* then var_2 #returns false if var_1 *is smaller or equal* to var_2```
+* * * ```<var_1> < <var_2> #returns true if var_1 *smaller* then var_2 #returns false if var_1 *is bigger or equal* to var_2```
 
 ```c++
 if ( (<condition_1> == true) || (<condition_2> != false)) std::cout << "I am in\n";
