@@ -251,9 +251,124 @@ The course is going through the basics of programming with C++
     // Sum = 18
 ```
 
-* **Types** - basic *variables* type to handle different data sets
-* **Types** - basic *variables* type to handle different data sets
-* **Types** - basic *variables* type to handle different data sets
+* **Loop Statement** - allows us to *execute a statement* or group of statements *multiple times*
+* * ```for```
+
+```c++
+    #include <iostream>
+    #include <vector>
+
+    int main()
+    {
+        // typical loop with a single statement as the body
+        for (int i = 0; i < 10; ++i)
+            std::cout << i << ' ';
+        std::cout << '\n';
+
+        // init-statement can declare multiple names, as long as they
+        // can use the same decl-specifier-seq
+        for (int i = 0, *p = &i; i < 9; i += 2) {
+            std::cout << i << ':' << *p << ' ';
+        }
+        std::cout << '\n';
+
+        // condition may be a declaration
+        char cstr[] = "Hello";
+        for (int n = 0; char c = cstr[n]; ++n)
+            std::cout << c;
+        std::cout << '\n';
+
+        // init-statement can use the auto type specifier
+        std::vector<int> v = {3, 1, 4, 1, 5, 9};
+        for (auto iter = v.begin(); iter != v.end(); ++iter) {
+            std::cout << *iter << ' ';
+        }
+        std::cout << '\n';
+
+        // Basic C++ foreach
+        for (auto value : v) {
+            std::cout << value << ' ';
+        }
+        std::cout << '\n';
+
+       // init-statement can be an expression
+        int n = 0;
+        for (std::cout << "Loop start\n";
+             std::cout << "Loop test\n";
+             std::cout << "Iteration " << ++n << '\n')
+            if(n > 1)
+                break;
+        std::cout << '\n';
+    }
+```
+
+* * ```while```
+
+```c++
+        #include <iostream>
+
+        int main() {
+            // while loop with a single statement
+            int i = 0;
+            while (i < 10)
+                 i++;
+            std::cout << i << '\n';
+
+            // while loop with a compound statement
+            int j = 2;
+            while (j < 9) {
+                std::cout << j << ' ';
+                j += 2;
+            }
+            std::cout << '\n';
+
+           // while loop with a declaration condition
+           char cstr[] = "Hello";
+           int k = 0;
+           while (char c = cstr[k++])
+               std::cout << c;
+           std::cout << '\n';
+        }
+```
+
+* * ```do while```
+
+![do_while_flow_diagram](https://www.tutorialspoint.com/cplusplus/images/cpp_do_while_loop.jpg)
+
+```c++
+        #include <iostream>
+        using namespace std;
+
+        int main () {
+           // Local variable declaration:
+           int a = 10;
+
+           // do loop execution
+           do {
+              cout << "value of a: " << a << endl;
+              a = a + 1;
+           } while( a < 20 );
+
+           return 0;
+        }
+```
+```
+        Output:
+        value of a: 10
+        value of a: 11
+        value of a: 12
+        value of a: 13
+        value of a: 14
+        value of a: 15
+        value of a: 16
+        value of a: 17
+        value of a: 18
+        value of a: 19
+```
+
+* **Reference** - *coming soon*
+* **Pointer** - *coming soon*
+* **Struct** - *coming soon*
 
 ## Project Structure
     .
