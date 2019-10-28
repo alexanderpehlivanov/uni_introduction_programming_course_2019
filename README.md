@@ -254,6 +254,35 @@ The course is going through the basics of programming with C++
 * **Loop Statement** - allows us to *execute a statement* or group of statements *multiple times*
 * * ```for```
 
+![for_flow_diagram](https://www.tutorialspoint.com/cplusplus/images/cpp_for_loop.jpg)
+
+```c++
+        #include <iostream>
+        using namespace std;
+
+        int main () {
+           // for loop execution
+           for( int a = 10; a < 20; a = a + 1 ) {
+              cout << "value of a: " << a << endl;
+           }
+
+           return 0;
+        }
+```
+```
+        Output:
+        value of a: 10
+        value of a: 11
+        value of a: 12
+        value of a: 13
+        value of a: 14
+        value of a: 15
+        value of a: 16
+        value of a: 17
+        value of a: 18
+        value of a: 19
+```
+
 ```c++
     #include <iostream>
     #include <vector>
@@ -303,6 +332,39 @@ The course is going through the basics of programming with C++
 ```
 
 * * ```while```
+
+![while_flow_diagram](https://www.tutorialspoint.com/cplusplus/images/cpp_while_loop.jpg)
+
+```c++
+        #include <iostream>
+        using namespace std;
+
+        int main () {
+           // Local variable declaration:
+           int a = 10;
+
+           // while loop execution
+           while( a < 20 ) {
+              cout << "value of a: " << a << endl;
+              a++;
+           }
+
+           return 0;
+        }
+```
+```
+        Output:
+        value of a: 10
+        value of a: 11
+        value of a: 12
+        value of a: 13
+        value of a: 14
+        value of a: 15
+        value of a: 16
+        value of a: 17
+        value of a: 18
+        value of a: 19
+```
 
 ```c++
         #include <iostream>
