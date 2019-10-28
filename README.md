@@ -257,30 +257,30 @@ The course is going through the basics of programming with C++
 ![for_flow_diagram](https://www.tutorialspoint.com/cplusplus/images/cpp_for_loop.jpg)
 
 ```c++
-        #include <iostream>
-        using namespace std;
+    #include <iostream>
+    using namespace std;
 
-        int main () {
-           // for loop execution
-           for( int a = 10; a < 20; a = a + 1 ) {
-              cout << "value of a: " << a << endl;
-           }
+    int main () {
+       // for loop execution
+       for( int a = 10; a < 20; a = a + 1 ) {
+          cout << "value of a: " << a << endl;
+       }
 
-           return 0;
-        }
+       return 0;
+    }
 ```
 ```
-        Output:
-        value of a: 10
-        value of a: 11
-        value of a: 12
-        value of a: 13
-        value of a: 14
-        value of a: 15
-        value of a: 16
-        value of a: 17
-        value of a: 18
-        value of a: 19
+    Output:
+    value of a: 10
+    value of a: 11
+    value of a: 12
+    value of a: 13
+    value of a: 14
+    value of a: 15
+    value of a: 16
+    value of a: 17
+    value of a: 18
+    value of a: 19
 ```
 
 ```c++
@@ -336,61 +336,61 @@ The course is going through the basics of programming with C++
 ![while_flow_diagram](https://www.tutorialspoint.com/cplusplus/images/cpp_while_loop.jpg)
 
 ```c++
-        #include <iostream>
-        using namespace std;
+    #include <iostream>
+    using namespace std;
 
-        int main () {
-           // Local variable declaration:
-           int a = 10;
+    int main () {
+       // Local variable declaration:
+       int a = 10;
 
-           // while loop execution
-           while( a < 20 ) {
-              cout << "value of a: " << a << endl;
-              a++;
-           }
+       // while loop execution
+       while( a < 20 ) {
+          cout << "value of a: " << a << endl;
+          a++;
+       }
 
-           return 0;
-        }
+       return 0;
+    }
 ```
 ```
-        Output:
-        value of a: 10
-        value of a: 11
-        value of a: 12
-        value of a: 13
-        value of a: 14
-        value of a: 15
-        value of a: 16
-        value of a: 17
-        value of a: 18
-        value of a: 19
+    Output:
+    value of a: 10
+    value of a: 11
+    value of a: 12
+    value of a: 13
+    value of a: 14
+    value of a: 15
+    value of a: 16
+    value of a: 17
+    value of a: 18
+    value of a: 19
 ```
 
 ```c++
-        #include <iostream>
+    #include <iostream>
 
-        int main() {
-            // while loop with a single statement
-            int i = 0;
-            while (i < 10)
-                 i++;
-            std::cout << i << '\n';
+    int main() {
+        // while loop with a single statement
+        int i = 0;
+        while (i < 10)
+             i++;
+        std::cout << i << '\n';
 
-            // while loop with a compound statement
-            int j = 2;
-            while (j < 9) {
-                std::cout << j << ' ';
-                j += 2;
-            }
-            std::cout << '\n';
-
-           // while loop with a declaration condition
-           char cstr[] = "Hello";
-           int k = 0;
-           while (char c = cstr[k++])
-               std::cout << c;
-           std::cout << '\n';
+        // while loop with a compound statement
+        int j = 2;
+        while (j < 9) {
+            std::cout << j << ' ';
+            j += 2;
         }
+        std::cout << '\n';
+
+       // while loop with a declaration condition
+       char cstr[] = "Hello";
+       int k = 0;
+       while (char c = cstr[k++])
+           std::cout << c;
+       std::cout << '\n';
+    }
 ```
 
 * * ```do while```
@@ -398,34 +398,34 @@ The course is going through the basics of programming with C++
 ![do_while_flow_diagram](https://www.tutorialspoint.com/cplusplus/images/cpp_do_while_loop.jpg)
 
 ```c++
-        #include <iostream>
-        using namespace std;
+    #include <iostream>
+    using namespace std;
 
-        int main () {
-           // Local variable declaration:
-           int a = 10;
+    int main () {
+       // Local variable declaration:
+       int a = 10;
 
-           // do loop execution
-           do {
-              cout << "value of a: " << a << endl;
-              a = a + 1;
-           } while( a < 20 );
+       // do loop execution
+       do {
+          cout << "value of a: " << a << endl;
+          a = a + 1;
+       } while( a < 20 );
 
-           return 0;
-        }
+       return 0;
+    }
 ```
 ```
-        Output:
-        value of a: 10
-        value of a: 11
-        value of a: 12
-        value of a: 13
-        value of a: 14
-        value of a: 15
-        value of a: 16
-        value of a: 17
-        value of a: 18
-        value of a: 19
+    Output:
+    value of a: 10
+    value of a: 11
+    value of a: 12
+    value of a: 13
+    value of a: 14
+    value of a: 15
+    value of a: 16
+    value of a: 17
+    value of a: 18
+    value of a: 19
 ```
 
 * **Reference** - *coming soon*
