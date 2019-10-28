@@ -4,7 +4,29 @@ The course is going through the basics of programming with C++
 
 ## Course Scope
 * **Input/ Output** - basic *standard library* tools to control your data flow
+
+```c++
+    #include <iostream>
+    using namespace std;
+
+    void main()
+    {
+        int g; // Initialize g
+        cin >> g; // Input Value to g 
+        cout << "Output is: "<< g; // Output g Value
+    }
+```
+
 * **Types** - basic *variables* type to handle different data sets
+
+```c++
+    int myNum = 5;               // Integer (whole number)
+    float myFloatNum = 5.99;     // Floating point number
+    double myDoubleNum = 9.98;   // Floating point number
+    char myLetter = 'D';         // Character
+    bool myBoolean = true;       // Boolean
+```
+
 * **Arithmetic Operations** - is a mathematical operation that takes two *variables* and performs a calculation on them
 
 ```c++
