@@ -6,6 +6,20 @@ The course is going through the basics of programming with C++
 * **Input/ Output** - basic *standard library* tools to control your data flow
 * **Types** - basic *variables* type to handle different data sets
 * **Arithmetic Operations** - is a mathematical operation that takes two *variables* and performs a calculation on them
+
+```c++
+    int a = 6;
+    
+    a += 6; // it is the same as a = a + 6; #returns a = 12
+    a -= 6; // it is the same as a = a - 6; #returns a = 6
+    
+    ++a; // it is the same as a = a + 1; #returns a = 7
+    --a; // it is the same as a = a - 1; #returns a = 6
+    
+    a++; // it is the same as return a and then increment a by 1 code: a; a = a + 1; #returns a = 6 and after return a = a + 1;
+    a--; // it is the same as return a and then decrement a by 1 code: a; a = a - 1; #returns a = 7 and after return a = a - 1;
+```
+
 * **Logical Operations** - is a decision based on multiple conditions. Part of the conditions are logical operators. The logical operators help us to create logical conditions that lead us to some events.
 * * *Logical Connections* 
 * * * ```&& #returns 'and'```
