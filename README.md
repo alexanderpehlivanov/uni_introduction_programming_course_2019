@@ -428,7 +428,7 @@ The course is going through the basics of programming with C++
     value of a: 19
 ```
 
-* **Reference** - When a *variable* is declared as *reference*, it becomes an *alternative name* for an *existing variable*. A variable can be declared as reference by putting *‘&’* in the declaration.
+* **Reference** - When a *variable* is declared as *reference*, it becomes an *alternative name* for an *existing variable*. A variable can be declared as reference by putting *‘&’* in the declaration.```type &var-name = var(same type);```
 
 ```c++
     #include<iostream> 
@@ -549,7 +549,37 @@ The course is going through the basics of programming with C++
         }
 ```
 
-* **Pointer** - *coming soon*
+* **Pointer** - is a variable that stores the *memory address as its value*. The pointer variable points to a data type (like int) of the same type, and is created with the **‘*’** operator. The address of the variable you're working with is assigned to the pointer.
+```type *var-name;```
+
+* * As you know every variable is a memory location and every memory location has its address defined which can be accessed using ampersand (&) operator which denotes an address in memory. Consider the following which will print the address of the variables defined.
+
+```c++
+    #include <iostream>
+
+    using namespace std;
+    int main () {
+       int  var1;
+       char var2[10];
+
+       cout << "Address of var1 variable: ";
+       cout << &var1 << endl;
+
+       cout << "Address of var2 variable: ";
+       cout << &var2 << endl;
+
+       return 0;
+    }
+```
+```
+    // The address for the variables will be different
+    // every time you execute the code above
+    
+    Output:
+    Address of var1 variable: 0xbfebd5c0
+    Address of var2 variable: 0xbfebd5b6 
+```
+
 * **Struct** - *coming soon*
 
 ## Project Structure
