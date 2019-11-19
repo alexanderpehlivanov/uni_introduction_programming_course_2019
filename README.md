@@ -631,6 +631,25 @@ The course is going through the basics of programming with C++
     Value of *ip variable: 20
 ```
 
+* * When you create new pointer and you won't use it at the moment. It is a good practice to give the pointer default value - **nullptr**
+
+```c++
+    #include <iostream>
+
+    using namespace std;
+
+    int main () {
+        // Pointer which won't be used now
+        int *ptrToInt = nullptr;
+        
+        int a = 5;
+        
+        ptrToInt = &a;
+
+        return 0;
+    }
+```
+
 * **Struct** - *coming soon*
 
 ## Project Structure
