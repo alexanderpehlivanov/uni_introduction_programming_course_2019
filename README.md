@@ -654,7 +654,7 @@ The course is going through the basics of programming with C++
 
 ![difference_between_pointers](https://www.geeksforgeeks.org/wp-content/uploads/PointersWithConstants-768x401.png)
 
-* * * **`int const`***
+* * * **`int const*`**
 * * * * *`int const*` is pointer to constant integer*
 * * * * This means that the variable being declared is a pointer, pointing to a constant integer. Effectively, this implies that the pointer is pointing to a value that shouldn’t be changed. Const qualifier doesn’t affect the pointer in this scenario so the pointer is allowed to point to some other address.
 The first const keyword can go either side of data type, hence int const* is equivalent to const int*.
