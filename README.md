@@ -631,7 +631,7 @@ The course is going through the basics of programming with C++
     Value of *ip variable: 20
 ```
 
-* * When you create new pointer and you won't use it at the moment. It is a good practice to give the pointer default value - **nullptr**
+* * When you create a new pointer and you won't use it at the moment. It is a good practice to give the pointer default value - **nullptr**
 
 ```c++
     #include <iostream>
