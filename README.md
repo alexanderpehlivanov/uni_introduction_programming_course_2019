@@ -492,7 +492,7 @@ The course is going through the basics of programming with C++
            string name; 
            string address; 
            int rollNo; 
-        } 
+        };
 
         // If we remove & in below function, a new 
         // copy of the student object is created.  
