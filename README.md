@@ -428,7 +428,7 @@ The course is going through the basics of programming with C++
     value of a: 19
 ```
 
-* **Reference** - When a *variable* is declared as *reference*, it becomes an *alternative name* for an *existing variable*. A variable can be declared as reference by putting *‘&’* in the declaration.```type &var-name = var(same type);```
+* **Reference** - When a *variable* is declared as *reference*, it becomes an *alternative name* for an *existing variable*. A variable can be declared as reference by putting *``&``* in the declaration.```type &var-name = var(same type);```
 
 ```c++
     #include<iostream> 
@@ -549,7 +549,7 @@ The course is going through the basics of programming with C++
         }
 ```
 
-* **Pointer** - is a variable that stores the *memory address as its value*. The pointer variable points to a data type (like int) of the same type, and is created with the **‘*’** operator. The address of the variable you're working with is assigned to the pointer.
+* **Pointer** - is a variable that stores the *memory address as its value*. The pointer variable points to a data type (like int) of the same type, and is created with the *``*``* operator. The address of the variable you're working with is assigned to the pointer.
 ```type *var-name;```
 
 * * Here, type is the pointer's base type; it must be a valid C++ type and var-name is the name of the pointer variable. The asterisk you used to declare a pointer is the same asterisk that you use for multiplication. However, in this statement the asterisk is being used to designate a variable as a pointer. Following are the valid pointer declaration.
@@ -654,8 +654,8 @@ The course is going through the basics of programming with C++
 
 ![difference_between_pointers](https://www.geeksforgeeks.org/wp-content/uploads/PointersWithConstants-768x401.png)
 
-* * * **int const***
-* * * * *int const* is pointer to constant integer*
+* * * **`int const`***
+* * * * *`int const*` is pointer to constant integer*
 * * * * This means that the variable being declared is a pointer, pointing to a constant integer. Effectively, this implies that the pointer is pointing to a value that shouldn’t be changed. Const qualifier doesn’t affect the pointer in this scenario so the pointer is allowed to point to some other address.
 The first const keyword can go either side of data type, hence int const* is equivalent to const int*.
 
@@ -678,8 +678,8 @@ The first const keyword can go either side of data type, hence int const* is equ
         }
 ```
 
-* * * **int *const**
-* * * * *int *const is a constant pointer to integer*
+* * * **`int *const`**
+* * * * *`int *const` is a constant pointer to integer*
 * * * * This means that the variable being declared is a constant pointer pointing to an integer. Effectively, this implies that the pointer shouldn’t point to some other address. Const qualifier doesn’t affect the value of integer in this scenario so the value being stored in the address is allowed to change.
 
 ```c++
@@ -702,8 +702,8 @@ The first const keyword can go either side of data type, hence int const* is equ
         }
 ```
 
-* * * **const int* const**
-* * * * *const int* const is a constant pointer to constant integer*
+* * * **`const int* const`**
+* * * * *`const int* const` is a constant pointer to constant integer*
 * * * * This means that the variable being declared is a constant pointer pointing to a constant integer. Effectively, this implies that a constant pointer is pointing to a constant value. Hence, neither the pointer should point to a new address nor the value being pointed to should be changed. The first const keyword can go either side of data type, hence const int* const is equivalent to int const* const.
 
 ```c++
