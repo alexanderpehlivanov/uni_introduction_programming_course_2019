@@ -3,6 +3,12 @@
 The course is going through the basics of programming with C++
 
 ## Course Scope
+* **Operator Precedence** - Operators are listed top to bottom, in descending precedence.
+
+![precedence_operator](https://i.stack.imgur.com/u3q2E.png)
+
+![precedence_operator_scheme](https://media.geeksforgeeks.org/wp-content/uploads/20190708173715/Operator-Precedence-and-Associativity-2.jpg)
+
 * **Input/ Output** - basic *standard library* tools to control your data flow
 
 ```c++
@@ -27,7 +33,7 @@ The course is going through the basics of programming with C++
     bool myBoolean = true;       // Boolean
 ```
 
-* **Arithmetic Operations** - is a mathematical operation that takes two *variables* and performs a calculation on them
+* **Arithmetic Operations** - is a mathematical operation that takes two *variables* and performs a calculation on them.
 
 ```c++
     int a = 6;
@@ -43,6 +49,7 @@ The course is going through the basics of programming with C++
 ```
 
 * **Logical Operations** - is a decision based on multiple conditions. Part of the conditions are logical operators. The logical operators help us to create logical conditions that lead us to some events.
+
 * * *Logical Connections* 
 * * * ```&& #returns 'and'```
 * * * ```|| #returns 'or'```
