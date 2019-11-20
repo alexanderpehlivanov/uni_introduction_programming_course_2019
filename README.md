@@ -119,60 +119,76 @@ The course is going through the basics of programming with C++
 ```
 
 * * *Defining Constants*
-* * * There are two simple ways in C++ to define constants −
+* * * There are two simple ways in C++ to define constants.
 
 * * * * Using #define preprocessor.
 * * * * Using const keyword.
 
-The #define Preprocessor
-Following is the form to use #define preprocessor to define a constant −
+* * * The #define Preprocessor
+* * * * Following is the form to use #define preprocessor to define a constant.
 
+```
 #define identifier value
-Following example explains it in detail −
+```
 
-Live Demo
-#include <iostream>
-using namespace std;
+* * * * Following example explains it in detail.
 
-#define LENGTH 10   
-#define WIDTH  5
-#define NEWLINE '\n'
+```c++
+        #include <iostream>
+        using namespace std;
 
-int main() {
-   int area;  
-   
-   area = LENGTH * WIDTH;
-   cout << area;
-   cout << NEWLINE;
-   return 0;
-}
-When the above code is compiled and executed, it produces the following result −
+        #define LENGTH 10   
+        #define WIDTH  5
+        #define NEWLINE '\n'
 
-50
-The const Keyword
-You can use const prefix to declare constants with a specific type as follows −
+        int main() {
+           int area;  
 
-const type variable = value;
-Following example explains it in detail −
+           area = LENGTH * WIDTH;
+           cout << area;
+           cout << NEWLINE;
+           return 0;
+        }
+```
 
-Live Demo
-#include <iostream>
-using namespace std;
+* * * * When the above code is compiled and executed, it produces the following result −
 
-int main() {
-   const int  LENGTH = 10;
-   const int  WIDTH  = 5;
-   const char NEWLINE = '\n';
-   int area;  
-   
-   area = LENGTH * WIDTH;
-   cout << area;
-   cout << NEWLINE;
-   return 0;
-}
-When the above code is compiled and executed, it produces the following result −
+```
+        50
+```
 
-50
+* * *The const Keyword*
+
+* * * You can use const prefix to declare constants with a specific type as follows.
+
+```c++
+        const type variable = value;
+```
+
+* * * Following example explains it in detail −
+
+```c++
+        #include <iostream>
+        using namespace std;
+
+        int main() {
+           const int  LENGTH = 10;
+           const int  WIDTH  = 5;
+           const char NEWLINE = '\n';
+           int area;  
+
+           area = LENGTH * WIDTH;
+           cout << area;
+           cout << NEWLINE;
+           return 0;
+        }
+```
+
+* * * When the above code is compiled and executed, it produces the following result −
+
+```
+        50
+```
 
 * **Input/ Output** - basic *standard library* tools to control your data flow
 
