@@ -1,4 +1,4 @@
-# Materials for the course Introduction to Programming 2019
+# Materials for the course Introduction to Programming 2020
 
 The course is going through the basics of programming with C++
 
