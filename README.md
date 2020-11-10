@@ -1176,16 +1176,15 @@ The first const keyword can go either side of data type, hence int const* is equ
 
 ## Project Structure
     .
-    ├── ...
+    ├── Code                    # The programs that are written through the exercise
+    │   ├── Code_Ex_x_y         # The programs from the exercise x and y
+    |
+    ├── Presentations           # Presentations
+    │   └── ...                 # etc.
+    |
     ├── Tasks                   # Tasks Directory
     │   └── ...                 # etc.
     |
-    ├── docs                    # Documentation files (alternatively `doc`)
-    │   ├── TOC.md              # Table of contents
-    │   ├── faq.md              # Frequently asked questions
-    │   ├── misc.md             # Miscellaneous information
-    │   ├── usage.md            # Getting started guide
-    │   └── ...                 # etc.
     └── ...
     
 ## License
